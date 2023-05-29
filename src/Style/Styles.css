@@ -21,6 +21,9 @@ html{
   text-decoration: none;
   list-style: none;
 }
+a{
+  text-decoration: none !important;
+}
 a:hover{
   color: black;
 }
@@ -43,7 +46,7 @@ section.navbar{
  
 }
 nav{
-  /* background: rgba(0,0,0,0.2); */
+  background: rgba(0,0,0,0.9);
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -52,26 +55,28 @@ nav{
 .navbrand{
   color: white;
   padding: .5rem;
-  margin-left: 2.5rem;
+  margin-left: 4rem;
   font-size: 1.8rem;
 }
 .nav-links{
-  margin-right: 30px;
+  padding-top: .5rem;
+  margin-right: 4rem;
   display: grid;
   grid-template-columns: repeat(5,auto);
   grid-gap: 30px;
   align-items: center;
+ 
   position: relative;
 
 }
 li{
-
   position: relative;
   cursor: pointer;
 }
+
 li::before{
   content: "";
-  background-color: rgb(238, 11, 238);
+  background-color: #ac28ea;
   height: .25rem;
   position: absolute;
   left: 0;
@@ -88,19 +93,19 @@ li:hover::before{
   font-size: 1.5rem;
   font-weight: 500;
 }
+.links:hover{
+  color:yellow;
+}
 .menu-icons{
   display: none;
-
-  align-items: center;
-  font-size: 1.7rem;
-  margin-right: 2.5rem;
-
+  color: #ac28ea;
 }
 .nav-icon{
  position: relative;
- top: 0px;right:2px;
+ top: -2px;right:7px;
 
 }
+
 .logBtn{
   background-color: blueviolet;
   font-size: 1.5rem;
@@ -126,11 +131,12 @@ li:hover::before{
       align-items: stretch;
       padding: 80px 0 30px 0;
       margin: 0;      
-      transition: all 1s ease-in-out;
+      /* transition: all 1s ease-in-out; */
    
   }
   .nav-links.active{
       top:0;
+      background-color: rgba(0,0,0,.8);
       display:flex;
       opacity: 1;
       z-index: -1;
@@ -142,10 +148,15 @@ li:hover::before{
   .menu-icons{
       display:flex;
       cursor: pointer;
+      /* color: white; */
+      align-items: center;
+      font-size: 1.7rem;
+      margin-right: 2.5rem;
   }
   .logBtn{
       display: block;
       width: 75%;
+
       margin:0 auto ;
       font-size: 2rem;
       border-radius: 10px;
@@ -182,18 +193,19 @@ li:hover::before{
   font-size: 2.3rem;
 }
 .home-heading{
-  padding: 0 5rem;
+  padding: 3rem 5rem;
   font-size: 2.4rem;
  
 }
 .heading-name {
+  text-transform: uppercase;
   font-size: 5rem !important;
   /* padding-left: 45px !important; */
 }
 
-.main-name{
+.purple{
   color: #ac28ea;
-  text-transform: uppercase;
+  
 }
 .typeText{
   color: #ac28ea;
@@ -202,4 +214,62 @@ li:hover::before{
 
 .wave{
   /*  */
+  animation-name: wave-animation;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  transform-origin:70% 70% ;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0%{transform: rotate(0deg);}
+  10%{transform: rotate(14deg);}
+  20%{transform: rotate(-8deg);}
+  30%{transform: rotate(14deg);}
+  40%{transform: rotate(-4deg);}
+  50%{transform: rotate(10deg);}
+  60%{transform: rotate(0deg);}
+  70%{transform: rotate(0deg);}
+  80%{transform: rotate(0deg);}
+  90%{transform: rotate(0deg);}
+  100%{transform: rotate(0deg);}
+  
+}
+
+@media (min-width: 768px) {
+
+}
+
+/* Home2 */
+.home-about-section{
+  position: relative;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.home-about-description{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  color: white;
+ 
+}
+.home-about-description h1{
+  text-align: center;
+  margin-bottom:3rem;
+ 
+}
+
+.home-about-body{
+  text-align: left !important;
+  font-size: 1.5rem;
+}
+.home-about-social{
+  color: white;
+  text-align: center;
+}
+.social-links{
+  margin:1rem ;
+  font-size: 2rem;
+ 
+}
+.icon-color:hover:nth-child(1){
+  color: rgb(253, 0, 181);
 }

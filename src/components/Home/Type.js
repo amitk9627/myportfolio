@@ -4,7 +4,7 @@ export default function Type() {
     return (
         <Typewriter
             options={{
-                strings: ['FRONTEND DEVELOPER', 'FULLSTACK DEVELOPER'],
+                strings: ['FRONTEND DEVELOPER', 'FULLSTACK DEVELOPER'], 
                 autoStart: true,
                 loop: true,
             }}
