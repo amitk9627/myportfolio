@@ -21,7 +21,7 @@ export default function Navbar() {
 
         <ul className={`${bars ? 'nav-links' : 'nav-links active'}`} onClick={() => setBars(!bars)}>
           <li><NavLink className="links" to='/'><AiOutlineHome className='nav-icon'/>Home</NavLink></li>
-          <li><NavLink className="links" to='/skill'><AiFillStar className='nav-icon' />Skill</NavLink></li>
+          <li><NavLink className="links" to='/contact'><AiFillStar className='nav-icon' />Skill</NavLink></li>
           <li><NavLink className="links" to='/project'><AiOutlineFundProjectionScreen className='nav-icon' />Project</NavLink></li>
 
           <li><NavLink className="links" to='/about'><AiOutlineUser className='nav-icon' />About</NavLink></li>

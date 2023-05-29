@@ -18,12 +18,7 @@ const particlesLoaded = useCallback(async container => {
       init={particlesInit} 
       loaded={particlesLoaded} 
       options={{
-        background: {
-            color: {
-                value: "#0d47a1",
-            },
-            opacity:0.3 // opacity
-        },
+      
         fpsLimit: 120,
         interactivity: {
             events: {

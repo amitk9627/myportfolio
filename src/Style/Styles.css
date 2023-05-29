@@ -37,10 +37,11 @@ a:hover{
   height: 100vh;
   z-index: -1;
 }
+section
 
 section.navbar{
-  background:transparent;
-  position: fixed !important;
+  background:inherit;
+  position: sticky !important;
   width: 100%;
   z-index: 10;
  
@@ -273,3 +274,7 @@ li:hover::before{
 .icon-color:hover:nth-child(1){
   color: rgb(253, 0, 181);
 }
+
+
+
+/* About.js */
