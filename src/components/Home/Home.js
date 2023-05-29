@@ -10,7 +10,7 @@ import Home2 from './Home2'
 export default function Home() {
   return (
     <section>
-      <Container className="home-section" id="home">
+      <Container className="home-section" fluid id="home">  {/*  fluid give full width l/r */}
         <Particle />
         <Container className='home-content'>
           <Row>
