@@ -324,3 +324,49 @@ li:hover::before{
   padding: 20px !important;
   line-height: 1.6 !important;
 }
+
+
+/* project.js */
+.project-section{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.project-content {
+  text-align: center;
+  color: white;
+}
+.project-content h1{
+  font-size: 3.5rem;
+}
+.project-content p{
+  font-size: 1.3rem;
+}
+/* card */
+.cardImage{
+  padding: 10px;
+}
+.cardgroup{
+  margin-bottom:60px;
+  margin-top:10px; 
+}
+.cardelement{
+  transition: all 1s ease-in-out;
+  box-shadow: 0px 0px 5px rgb(253, 0, 181);
+}
+.cardelement:hover{
+  transform: scale(1.1);
+ box-shadow: 1px 0px 11px rgb(253, 0, 181);
+}
+.project-links{
+  background-color: #5A327B;
+  border-radius: 5px;
+  padding: 10px 30px 8px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+.project-links:hover{
+  color:whitesmoke
+}
