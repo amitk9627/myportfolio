@@ -12,7 +12,7 @@ export default function ProjectCard() {
         <Card.Body>
           <Card.Title style={{color:"white"}}>Portfolio</Card.Title>
           <hr />
-          <Card.Text>
+          <Card.Text style={{textAlign:'justify'}}>
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
             first to show that equal height action.

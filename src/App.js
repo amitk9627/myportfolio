@@ -5,7 +5,8 @@ import Home from './components/Home/Home'
 import AboutMe from './components/About/AboutMe'
 import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
-import './App.css';
+import Skill from './Skill';
+
 import './Style/Styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path='/about' element={<AboutMe />} />
             <Route path='/project' element={<Project />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/skill' element={<Skill />} />
 
           </Routes>
      

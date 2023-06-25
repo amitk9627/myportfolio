@@ -62,7 +62,7 @@ nav{
   padding-top: .5rem;
   margin-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(5,auto);
+  grid-template-columns: repeat(6,auto);
   grid-gap: 30px;
   align-items: center;
  
@@ -107,11 +107,17 @@ li:hover::before{
 }
 
 .logBtn{
-  background-color: blueviolet;
+  background-color: rgb(153, 116, 188);
   font-size: 1.5rem;
+  color: white;
   border-radius: 7px;
+  padding: 3px 10px;
  
 }
+.logBtn:hover{
+  color: black;
+}
+
 @media (max-width:767px) {
   .navbar{
       width: 100%;
