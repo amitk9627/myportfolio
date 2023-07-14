@@ -376,3 +376,6 @@ li:hover::before{
 .project-links:hover{
   color:whitesmoke
 }
+.skill-section{
+  margin-top: 2rem;
+}

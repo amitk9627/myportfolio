@@ -8,6 +8,7 @@ import {FaLinkedinIn} from 'react-icons/fa'
 export default function Home2() {
     return (
         <Container fluid className='home-about-section' id="about">
+            
             <Container>
                 <Row>
                     <Col md={8} className='home-about-description'>
@@ -38,7 +39,7 @@ export default function Home2() {
                     </Col>
 
                     <Col md={4}>
-                        <img  />
+                        <img src="" />
                     </Col>
                 </Row>
                 <Row>

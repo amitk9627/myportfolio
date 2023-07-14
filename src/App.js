@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import AboutMe from './components/About/AboutMe'
 import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
-import Skill from './Skill';
+import Skill from './components/Skill/Skill';
 
 import './Style/Styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
