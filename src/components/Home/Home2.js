@@ -11,7 +11,7 @@ export default function Home2() {
             
             <Container>
                 <Row>
-                    <Col md={8} className='home-about-description'>
+                    <Col md={12} className='home-about-description'>
                         <h1 style={{  fontSize: '2.6em'}}>
                             LET ME <span className='purple'>INTRODUCE</span> MYSELF
                         </h1>
@@ -38,9 +38,7 @@ export default function Home2() {
                         </p>
                     </Col>
 
-                    <Col md={4}>
-                        <img src="" />
-                    </Col>
+                    
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">

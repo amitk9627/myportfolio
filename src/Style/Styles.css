@@ -255,10 +255,8 @@ li:hover::before{
   padding-bottom: 50px !important;
 }
 .home-about-description{
-  padding-top: 100px !important;
-  padding-bottom: 100px !important;
+  padding: 100px 100px !important;
   color: white;
- 
 }
 .home-about-description h1{
   text-align: center;
@@ -382,4 +380,10 @@ li:hover::before{
 }
 .skill-section{
   margin-top: 2rem;
+}
+@media (max-width:767px) {
+  .home-about-description{
+    padding: 10px 10px !important;
+    color: white;
+  }
 }
