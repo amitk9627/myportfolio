@@ -140,6 +140,10 @@ li:hover::before{
       /* transition: all 1s ease-in-out; */
    
   }
+  .links{
+    padding-left: 26px;
+    
+  }
   .nav-links.active{
       top:0;
       background-color: rgba(0,0,0,.8);
